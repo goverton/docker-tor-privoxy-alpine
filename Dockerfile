@@ -9,3 +9,5 @@ RUN echo '@testing http://nl.alpinelinux.org/alpine/edge/testing' \
 COPY service /etc/service/
 
 CMD ["runsvdir", "/etc/service"]
+
+VOLUME /service
