@@ -19,3 +19,4 @@ And that's it! Read the accompanying [blog post](https://medium.com/@rdsubhas/do
 * [s6 supervision suite](http://skarnet.org/software/s6/index.html), similar to runit and daemontools
 * [s6-overlay](https://github.com/just-containers/s6-overlay), base container with s6 and alpine
 * [docker-slim](https://github.com/cloudimmunity/docker-slim), a tool to automatically analyze and trim existing fat containers
+ 
