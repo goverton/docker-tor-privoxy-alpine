@@ -10,4 +10,4 @@ COPY service /etc/service/
 
 CMD ["runsvdir", "/etc/service"]
 
-VOLUME /etc/service
+VOLUME /etc
