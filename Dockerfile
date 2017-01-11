@@ -7,7 +7,6 @@ RUN echo '@testing http://nl.alpinelinux.org/alpine/edge/testing' \
     apk --update add privoxy tor@testing runit@testing
 
 COPY service /etc/service/
+COPY service-custom /etc/service/
 
 CMD ["runsvdir", "/etc/service"]
-
-VOLUME /service
